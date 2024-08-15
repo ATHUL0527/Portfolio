@@ -74,3 +74,4 @@ function validateForm() {
     submitError.innerHTML = '<i id="tick-error" class="fa-solid fa-circle-check"></i> Form submitted successfully';
     return true;
 }
+document.getElementsByClassName('contact-form').reset();
